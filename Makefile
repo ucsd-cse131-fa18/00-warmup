@@ -23,14 +23,15 @@ clean: distclean
 
 distclean: 
 	$(STACK) clean
-	rm -rf .stack_work 
+	rm -rf .stack-work 
 
 tags:
 	hasktags -x -c lib/
 
 turnin: 
-	rm -rf .stack-work
-	tar -zcvf ../$(ASGN)-$(COMPILER).tgz ../$(ASGN)-$(COMPILER) 
+	# rm -rf .stack-work
+	rm -rf $(ASGN)-$(COMPILER).tgz
+	tar -zcvf ../$(ASGN)-$(COMPILER).tgz --exclude .stack-work --exclude .git ../$(ASGN)-$(COMPILER) 	
 	mv ../$(ASGN)-$(COMPILER).tgz . 
 	turnin -c $(COURSE) ./$(ASGN)-$(COMPILER).tgz
 
