@@ -19,10 +19,10 @@ test: clean
 bin:
 	$(STACK) build
 
-clean: distclean
-
-distclean: 
+clean: 
 	$(STACK) clean
+
+distclean: clean 
 	rm -rf .stack-work 
 
 tags:
