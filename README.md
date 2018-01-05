@@ -1,5 +1,5 @@
 ---
-title: HW 0, due 9/30/2016
+title: HW 0, due 1/19/2018
 headerImg: angles.jpg
 ---
 
