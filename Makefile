@@ -9,7 +9,7 @@ ifeq ($(UNAME), Darwin)
 endif
 endif
 
-COURSE=cs131e
+COURSE=cs131w
 ASGN=00
 COMPILER=warmup
 
