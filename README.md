@@ -103,7 +103,7 @@ sumList :: [Int] -> Int
 sumList xs = error "TBD:sumList"
 ```
 
-that such that `sumList xs` returns the sum of the integer elements of
+such that `sumList xs` returns the sum of the integer elements of
 `xs`. Once you have implemented the function, you should get the following
 behavior at the prompt:
 
