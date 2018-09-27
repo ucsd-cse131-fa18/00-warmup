@@ -3,11 +3,15 @@ title: HW 0, due 10/5/2018
 headerImg: angles.jpg
 ---
 
-## Download
+## Download 
 
-```bash 
-$ git clone https://github.com/ucsd-cse131/00-warmup.git
-$ cd 00-warmup/
+1. Use the _fork link_ from the class website to create your private clone of the starter code.
+2. Do `git clone https://github.com/ucsd-cse131-fa18/00-warmup-XXX` where `XXX` is your private repo.
+3. Use `git` to manage your assignment, i.e. regularly save your work with:
+
+```
+$ git commit -a -m MESSAGE 
+$ git push 
 ```
 
 ## Overview
@@ -91,11 +95,9 @@ To submit your code, just do:
 $ make turnin 
 ```
 
-`turnin` will provide you with a confirmation of the
-submission process; make sure that the size of the file
-indicated by `turnin` matches the size of your file.
-See the ACS Web page on [turnin](http://acs.ucsd.edu/info/turnin.php)
-for more information on the operation of the program.
+This will simply do a `git commit` followed by a `git push` to send us your code.
+**We will use the _most recent commit_ of your code (on `master` branch) as your submission.**
+
 
 ## Problem 1: [Roots and Persistence](http://mathworld.wolfram.com/AdditivePersistence.html)
 
