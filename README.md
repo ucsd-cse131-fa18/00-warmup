@@ -80,7 +80,7 @@ but you will not be graded on this.
 
 ## Submission Instructions
 
-Before submitting your code, you have to fill [this form](https://goo.gl/forms/x5hm2FlSdxsmTYav1) 
+Before submitting your code, you have to fill [this form](https://goo.gl/forms/3KBuBTilmvMKFD223)
 to register your groups. We will use this form to match your ieng account
 username to your student id, so you **must** fill it even if you have
 worked on the assignment individually.
