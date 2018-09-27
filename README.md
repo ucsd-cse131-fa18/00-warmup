@@ -6,8 +6,22 @@ headerImg: angles.jpg
 ## Download 
 
 1. Use the _fork link_ from the class website to create your private clone of the starter code.
+
 2. Do `git clone https://github.com/ucsd-cse131-fa18/00-warmup-XXX` where `XXX` is your private repo.
-3. Use `git` to manage your assignment, i.e. regularly save your work with:
+
+3. Link your clone to the "upstream" to get any updates
+
+```
+$ make upstream
+```
+
+after this you can get "updates" (in case we modify the starter code), with 
+
+```
+$ make update 
+```
+
+4. Save (and submit) your work with: 
 
 ```
 $ git commit -a -m MESSAGE 
