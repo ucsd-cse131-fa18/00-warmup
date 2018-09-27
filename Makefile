@@ -9,7 +9,7 @@ ifeq ($(UNAME), Darwin)
 endif
 endif
 
-COURSE=cs131w
+COURSE=cs131f
 ASGN=00
 COMPILER=warmup
 
@@ -32,3 +32,8 @@ turnin:
 	git commit -a -m "turnin"
 	git push origin master
 
+upstream:
+	git remote add upstream git@github.com:ucsd-cse131-fa18/00-warmup.git
+
+update:
+	git pull upstream master
