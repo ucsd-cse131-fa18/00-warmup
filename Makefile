@@ -33,7 +33,7 @@ turnin:
 	git push origin master
 
 upstream:
-	git remote add upstream git@github.com:ucsd-cse131-fa18/00-warmup.git
+	git remote add upstream https://github.com/ucsd-cse131-fa18/00-warmup.git
 
 update:
 	git pull upstream master
